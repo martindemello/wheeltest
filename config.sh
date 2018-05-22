@@ -3,5 +3,5 @@ function pre_build {
 }
 
 function run_tests {
-  python -c "import pytype"
+  python -c "import pytype";
 }
