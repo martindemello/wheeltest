@@ -1,0 +1,6 @@
+[submodule "multibuild"]
+	path = multibuild
+	url = https://github.com/matthew-brett/multibuild.git
+[submodule "pytype"]
+	path = pytype
+	url = https://github.com/google/pytype
