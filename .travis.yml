@@ -2,7 +2,7 @@ env:
   global:
     - REPO_DIR=pytype
     - BUILD_COMMIT="2018.05.15"
-    - BUILD_DEPENDS="importlab,pyyaml>=3.11,six"
+    - BUILD_DEPENDS="importlab pyyaml>=3.11 six"
     - PLAT=x86_64
     - UNICODE_WIDTH=32
     - TWINE_REPOSITORY_URL="https://test.pypi.org/legacy/"
