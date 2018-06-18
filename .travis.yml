@@ -64,22 +64,25 @@ matrix:
       language: generic
       env:
         - MB_PYTHON_VERSION=2.7
+        - MACOSX_DEPLOYMENT_TARGET=10.12
     - os: osx
       osx_image: xcode9.4
       language: generic
       env:
         - MB_PYTHON_VERSION=3.4
+        - MACOSX_DEPLOYMENT_TARGET=10.12
     - os: osx
       osx_image: xcode9.4
       language: generic
       env:
         - MB_PYTHON_VERSION=3.5
+        - MACOSX_DEPLOYMENT_TARGET=10.12
     - os: osx
       osx_image: xcode9.4
       language: generic
       env:
         - MB_PYTHON_VERSION=3.6
-        - DST="arch=x86_64"
+        - MACOSX_DEPLOYMENT_TARGET=10.12
 
 before_install:
     - source multibuild/common_utils.sh
