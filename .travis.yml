@@ -1,7 +1,6 @@
 env:
   global:
     - REPO_DIR=pytype
-    - BUILD_COMMIT="aac10d"
     - BUILD_DEPENDS="importlab pyyaml>=3.11 six"
     - PLAT=x86_64
     - UNICODE_WIDTH=32
